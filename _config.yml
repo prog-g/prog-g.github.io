@@ -1,0 +1,7 @@
+theme: jekyll-theme-slate
+
+# slate theme settings
+title: prog-g
+description: 岐阜大学プログラミングサークルのwebページ
+github:
+  repository_url: https://github.com/prog-g/prog-g.github.io
