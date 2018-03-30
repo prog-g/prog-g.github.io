@@ -3,6 +3,6 @@ timezone: Japan
 
 # slate theme settings
 title: prog-g
-description: 岐阜大学プログラミングサークルのwebページ
+description: 岐阜大学プログラミングサークル
 github:
   repository_url: https://github.com/prog-g/prog-g.github.io
