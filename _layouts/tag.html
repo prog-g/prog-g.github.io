@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h1>タグ検索: {{ page.tag }}</h1>
+<ul>
+  {% for post in site.tags[page.tag] %}
+    <li>
+      {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
