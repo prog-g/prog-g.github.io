@@ -3,7 +3,15 @@ layout: default
 title: prog-g
 ---
 
-# 最近の投稿
+# このサークルについて
+毎月第2,4水曜日に工学部棟E402でお菓子を食べながらプログラミングをしています  
+初心者歓迎！！  
+twitter:
+
+# 作ったもの
+- [slack-choose-command](https://github.com/ahuglajbclajep/slack-choose-command)
+
+# 最近の活動
 <ul>
   {% for post in site.posts limit:5 %}
     <li>
@@ -11,3 +19,8 @@ title: prog-g
     </li>
   {% endfor %}
 </ul>
+
+# タグで検索
+{% for page in site.html_pages %}
+  <a href="/tags/{{ page.tag }}.html">{{ page.tag }}</a>
+{% endfor %}
