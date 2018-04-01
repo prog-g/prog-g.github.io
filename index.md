@@ -6,8 +6,9 @@ title: prog-g
 # このサークルについて
 毎月第2,4水曜日に工学部棟E402でお菓子を食べながらプログラミングしてます  
 Unityでゲームを作ったり、AndroidやWebアプリもやったりするよ  
-初心者歓迎！！  
-twitter:
+初心者歓迎！
+
+Twitter:
 
 # 作ったもの
 - [slack-choose-command](https://github.com/ahuglajbclajep/slack-choose-command)
@@ -22,6 +23,8 @@ twitter:
 </ul>
 
 # タグで検索
-{% for page in site.html_pages %}
-  <a href="/tags/{{ page.tag }}.html">{{ page.tag }}</a>
-{% endfor %}
+<div>
+  {% for page in site.html_pages %}
+    <a href="/tags/{{ page.tag }}.html">{{ page.tag }}</a>
+  {% endfor %}
+</div>
