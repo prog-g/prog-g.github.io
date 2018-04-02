@@ -8,7 +8,8 @@ title: prog-g
 Unityでゲームを作ったり、AndroidやWebアプリもやったりするよ  
 初心者歓迎！
 
-Twitter:
+Twitter: [@prog_g](https://twitter.com/prog_g)  
+E-mail: <programming.circle.gifu@gmail.com>
 
 # 作ったもの
 - [slack-choose-command](https://github.com/ahuglajbclajep/slack-choose-command)
