@@ -1,5 +1,6 @@
 theme: jekyll-theme-slate
 timezone: Japan
+lang: ja
 
 # slate theme settings
 title: prog-g
