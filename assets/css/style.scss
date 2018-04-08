@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:focus {
+  outline: none;
+}
+
+#top_page_link:hover, #top_page_link:focus {
+  text-decoration: none;
+}
