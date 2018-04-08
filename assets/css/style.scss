@@ -7,6 +7,19 @@
   outline: none;
 }
 
-#top_page_link:hover, #top_page_link:focus {
-  text-decoration: none;
+body {
+  overflow-y: scroll;
+}
+
+#top_page_link {
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+.navbar {
+  display: flex;
+  > .right {
+    margin-left: auto;
+  }
 }

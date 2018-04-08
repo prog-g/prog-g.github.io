@@ -10,7 +10,11 @@ layout: default
 <hr>
 {{ content }}
 <hr>
-<nav style="display: flex; justify-content: space-between;">
-  <a href="{{ page.previous.url }}">{% if page.previous.url %}&laquo; {{ page.previous.title }}{% endif %}</a>
-  <a href="{{ page.next.url }}">{% if page.next.url %}{{ page.next.title }} &raquo;{% endif %}</a>
+<nav class="navbar">
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a href="{{ page.next.url }}" class="right">{{ page.next.title }} &raquo;</a>
+  {% endif %}
 </nav>
