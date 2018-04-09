@@ -12,6 +12,7 @@ body {
 }
 
 #top_page_link {
+  display: block;
   &:hover, &:focus {
     text-decoration: none;
   }
