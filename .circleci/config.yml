@@ -21,7 +21,7 @@ jobs:
             - vendor/bundle
       - run:
           name: Build
-          command: bundle exec jekyll b --baseurl 0/_site
+          command: bundle exec jekyll b --baseurl /0/_site
       - store_artifacts:
           path: _site
           destination: _site
