@@ -18,7 +18,7 @@ E-mail: <programming.circle.gifu@gmail.com>
 <ul>
   {% for post in site.posts limit:5 %}
     <li>
-      {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -26,6 +26,6 @@ E-mail: <programming.circle.gifu@gmail.com>
 # タグで検索
 <div>
   {% for page in site.html_pages %}
-    <a href="/tags/{{ page.tag }}.html">{{ page.tag }}</a>
+    <a href="{{ site.url }}{{ site.baseurl }}/tags/{{ page.tag }}.html">{{ page.tag }}</a>
   {% endfor %}
 </div>
