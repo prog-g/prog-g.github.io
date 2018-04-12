@@ -1,0 +1,27 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.5.1-node
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - gems-{{ checksum "Gemfile" }}
+            - gems-
+      - run:
+          name: Which bundler?
+          command: bundle -v
+      - run:
+          name: Bundle Install
+          command: bundle install --path vendor/bundle
+      - save_cache:
+          key: gems-{{ checksum "Gemfile" }}
+          paths:
+            - vendor/bundle
+      - run:
+          name: Build
+          command: bundle exec jekyll b --baseurl /0/_site
+      - store_artifacts:
+          path: _site
+          destination: _site
