@@ -11,6 +11,10 @@ body {
   overflow-y: scroll;
 }
 
+iframe {
+  max-width: 100%;
+}
+
 #top_page_link {
   display: block;
   &:hover, &:focus {
