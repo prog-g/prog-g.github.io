@@ -20,8 +20,16 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
 
-          <!-- change forkme_banner url and text -->
-          <a id="forkme_banner" href="{{ site.github.owner_url }}">GitHub Org</a>
+          <!-- change forkme_banner url and text / add twitter and email banners -->
+          <div id="top_banner_wrap">
+            <a id="forkus_banner" href="{{ site.github.owner_url }}">GitHub</a>
+            {% if site.twitter %}
+              <a id="followus_banner" href="{{ site.twitter.url }}">{{ site.twitter.label }}</a>
+            {% endif %}
+            {% if site.email %}
+              <a id="email_banner" href="{{ site.email }}">Email</a>
+            {% endif %}
+          </div>
 
           <!-- add link to top page in header -->
           <a id="top_page_link" href="{{ '/index.html' | relative_url }}">
