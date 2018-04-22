@@ -21,18 +21,14 @@
         <header class="inner">
 
           <!-- change forkme_banner url and text / add twitter and email banners -->
-          <div id="top_banner_wrap">
-            <a id="forkus_banner" href="{{ site.github.owner_url }}">GitHub</a>
-            {% if site.twitter %}
-              <a id="followus_banner" href="{{ site.twitter.url }}">{{ site.twitter.label }}</a>
-            {% endif %}
-            {% if site.email %}
-              <a id="email_banner" href="{{ site.email }}">Email</a>
-            {% endif %}
+          <div id="banner_wrap">
+            <a id="github_banner" href="{{ site.github.owner_url }}">GitHub</a>
+            <a id="twitter_banner" href="{{ site.twitter.url }}">{{ site.twitter.label }}</a>
+            <a id="email_banner" href="{{ site.email }}">Email</a>
           </div>
 
           <!-- add link to top page in header -->
-          <a id="top_page_link" href="{{ '/index.html' | relative_url }}">
+          <a id="toppage_link" href="{{ '/index.html' | relative_url }}">
             <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
             <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
           </a>

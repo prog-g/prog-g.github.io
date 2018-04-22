@@ -15,14 +15,14 @@ iframe {
   max-width: 100%;
 }
 
-#top_banner_wrap {
+#banner_wrap {
   position: absolute;
-  top: 0;
+  top: 0px;
   right: 5px;
   z-index: 10;
 }
 
-%top_banner {
+%banner {
   display: inline-block;
   vertical-align: top;
   padding: 10px 42px 10px 10px;
@@ -33,19 +33,19 @@ iframe {
   border-bottom-right-radius: 2px;
 }
 
-#email_banner {
-  @extend %top_banner;
-  background: url(../images/Email_Icon_Public_Domain.svg) #d14836 no-repeat 95% 50% / auto 65%;
+#github_banner {
+  @extend %banner;
+  background: url(../images/GitHub-Mark-Light-120px-plus.svg) #12982c no-repeat 95% 50% / auto 68%;
 }
 
-#followus_banner {
-  @extend %top_banner;
+#twitter_banner {
+  @extend %banner;
   background: url(../images/Twitter_Social_Icon_Circle_White.svg) #1da1f2 no-repeat 95% 50% / auto 70%;
 }
 
-#forkus_banner {
-  @extend %top_banner;
-  background: url(../images/GitHub-Mark-Light-120px-plus.svg) #12982c no-repeat 95% 50% / auto 68%;
+#email_banner {
+  @extend %banner;
+  background: url(../images/Email_Icon_Public_Domain.svg) #d14836 no-repeat 95% 50% / auto 65%;
 }
 
 @media screen and (max-width: 640px) {
@@ -54,7 +54,7 @@ iframe {
   }
 }
 
-#top_page_link {
+#toppage_link {
   display: block;
   &:hover, &:focus {
     text-decoration: none;
