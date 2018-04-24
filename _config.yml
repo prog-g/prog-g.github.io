@@ -6,8 +6,6 @@ lang: ja
 title: prog-g
 description: 岐阜大学プログラミングサークル
 
-# modified
-twitter:
-  label: "@prog-g"
-  url: https://twitter.com/prog_g
+# banner settings
+twitter: prog_g
 email: mailto:programming.circle.gifu@gmail.com
