@@ -5,3 +5,7 @@ lang: ja
 # slate theme settings
 title: prog-g
 description: 岐阜大学プログラミングサークル
+
+# banner settings
+twitter: prog_g
+email: mailto:programming.circle.gifu@gmail.com
