@@ -8,13 +8,18 @@ title: prog-g
 Unityでゲームを作ったり、AndroidやWebアプリもやったりするよ  
 初心者歓迎！
 
-Twitter: [@prog_g](https://twitter.com/prog_g)  
-E-mail: <programming.circle.gifu@gmail.com>
 
-# 作ったもの
-- [slack-choose-command](https://github.com/ahuglajbclajep/slack-choose-command)
+## 作ったもの
+<ul>
+  {% for artifact in site.data.artifacts %}
+    <li>
+      <a href="{{ artifact.repository }}">{{ artifact.name }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
-# 最近の活動
+
+## 最近の活動
 <ul>
   {% for post in site.posts limit:5 %}
     <li>
@@ -23,7 +28,8 @@ E-mail: <programming.circle.gifu@gmail.com>
   {% endfor %}
 </ul>
 
-# タグで検索
+
+## タグで検索
 <div>
   {% for page in site.html_pages %}
     <a href="{{ site.url }}{{ site.baseurl }}/tags/{{ page.tag }}.html">{{ page.tag }}</a>
