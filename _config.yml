@@ -1,11 +1,14 @@
-theme: jekyll-theme-slate
 timezone: Japan
-lang: ja
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# slate theme settings
+theme: jekyll-theme-slate
 title: prog-g
 description: 岐阜大学プログラミングサークル
+lang: ja
 
-# banner settings
-twitter: prog_g
+twitter:
+  username: prog_g
+
 email: mailto:programming.circle.gifu@gmail.com
