@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<h1>記事一覧</h1>
+# 記事一覧
+---
 <ul>
   {% for post in site.posts %}
     <li>
