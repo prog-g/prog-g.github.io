@@ -2,6 +2,9 @@ timezone: Japan
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - package.json
 
 theme: jekyll-theme-slate
 title: prog-g
