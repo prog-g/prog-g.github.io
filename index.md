@@ -4,12 +4,13 @@ title: prog-g
 ---
 
 # このサークルについて
-隔週で水曜日の13:30から工学部棟E403でお菓子を食べながらプログラミングをしています  
-Unityでゲームを作ったり、AndroidやWebアプリもやったりするよ  
+
+隔週水曜日の 13:30 から工学部棟 E403 でお菓子を食べながらプログラミングをしています。
+Unity を使ってゲームを作ったり、Android や Web アプリをやったりするよ。
 初心者歓迎！
 
-
 ## 作ったもの
+
 <ul>
   {% for artifact in site.data.artifacts %}
     <li>
@@ -18,8 +19,8 @@ Unityでゲームを作ったり、AndroidやWebアプリもやったりする�
   {% endfor %}
 </ul>
 
-
 ## 最近の活動
+
 <ul>
   {% for post in site.posts limit:5 %}
     <li>
@@ -29,8 +30,8 @@ Unityでゲームを作ったり、AndroidやWebアプリもやったりする�
 </ul>
 [もっとみる](allposts)
 
-
 ## タグで検索
+
 <div>
   {% for page in site.html_pages %}
     <a href="{{ site.url }}{{ site.baseurl }}/tags/{{ page.tag }}.html">{{ page.tag }}</a>

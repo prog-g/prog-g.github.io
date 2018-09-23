@@ -65,7 +65,7 @@ Ubuntuを起動して以下のような画面になれば完了。
 
 ![Ubuntuインストール完了画面]({{ "/assets/2018/Ubuntuインストール完了.png" | relative_url }})
 
-### 4. Windwosの起動を確認
+### 4. Windowsの起動を確認
 
 PCを再起動してBIOS画面でBIOS設定またはブートデバイス選択画面を呼び出し、Windowsの入ったデバイスでブートする。Windowsが起動すれば問題なし。
 
