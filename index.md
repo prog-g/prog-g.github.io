@@ -34,6 +34,8 @@ Unity を使ってゲームを作ったり、Android や Web アプリをやっ�
 
 <div>
   {% for page in site.html_pages %}
-    <a href="{{ site.url }}{{ site.baseurl }}/tags/{{ page.tag }}.html">{{ page.tag }}</a>
+    {% if page.tag %}
+      <a href="{{ site.url }}{{ site.baseurl }}/tags/{{ page.tag }}.html">{{ page.tag }}</a>
+    {% endif %}
   {% endfor %}
 </div>
