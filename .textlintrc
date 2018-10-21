@@ -1,6 +1,7 @@
 {
   "rules": {
     "preset-ja-technical-writing": {
+      "max-comma": false,
       "no-exclamation-question-mark": false,
       "ja-no-weak-phrase": false
     },
