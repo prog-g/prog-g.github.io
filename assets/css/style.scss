@@ -2,64 +2,58 @@
 ---
 
 @import "{{ site.theme }}";
-
 :focus {
   outline: none;
 }
-
 body {
+  overflow-wrap: break-word;
   overflow-y: scroll;
 }
-
 iframe {
   max-width: 100%;
 }
-
 #banner_wrap {
   position: absolute;
   top: 0px;
   right: 5px;
   z-index: 10;
 }
-
 %banner {
   display: inline-block;
   padding: 10px 42px 10px 10px;
   color: #fff;
   font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-
 #github_banner {
   @extend %banner;
-  background: url(../images/GitHub-Mark-Light-120px-plus.svg) #12982c no-repeat 95% 50% / auto 68%;
+  background: url(../images/GitHub-Mark-Light-120px-plus.svg) #12982c no-repeat
+    95% 50% / auto 68%;
 }
-
 #twitter_banner {
   @extend %banner;
-  background: url(../images/Twitter_Social_Icon_Circle_White.svg) #1da1f2 no-repeat 95% 50% / auto 70%;
+  background: url(../images/Twitter_Social_Icon_Circle_White.svg) #1da1f2
+    no-repeat 95% 50% / auto 70%;
 }
-
 #email_banner {
   @extend %banner;
-  background: url(../images/Email_Icon_Public_Domain.svg) #d14836 no-repeat 95% 50% / auto 65%;
+  background: url(../images/Email_Icon_Public_Domain.svg) #d14836 no-repeat 95%
+    50% / auto 65%;
 }
-
 @media screen and (max-width: 420px) {
   #header_wrap > .inner {
     padding-top: 70px;
   }
 }
-
 #toppage_link {
   display: block;
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     text-decoration: none;
   }
 }
-
 .navbar {
   display: flex;
   > .right {
