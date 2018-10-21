@@ -22,25 +22,25 @@ iframe {
   display: inline-block;
   padding: 10px 42px 10px 10px;
   color: #fff;
+  background: no-repeat 95% 50% / auto 70%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-radius: 0 0 2px 2px;
 }
 #github_banner {
   @extend %banner;
-  background: url(../images/GitHub-Mark-Light-120px-plus.svg) #12982c no-repeat
-    95% 50% / auto 68%;
+  background-image: url(../images/GitHub.svg);
+  background-color: #12982c;
 }
 #twitter_banner {
   @extend %banner;
-  background: url(../images/Twitter_Social_Icon_Circle_White.svg) #1da1f2
-    no-repeat 95% 50% / auto 70%;
+  background-image: url(../images/Twitter.svg);
+  background-color: #1da1f2;
 }
-#email_banner {
+#connpass_banner {
   @extend %banner;
-  background: url(../images/Email_Icon_Public_Domain.svg) #d14836 no-repeat 95%
-    50% / auto 65%;
+  background-image: url(../images/connpass.svg);
+  background-color: #d11f00;
 }
 @media screen and (max-width: 420px) {
   #header_wrap > .inner {
