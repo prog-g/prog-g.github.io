@@ -54,6 +54,13 @@ iframe {
     text-decoration: none;
   }
 }
+#toppage_link h1 {
+  padding-left: 64px;
+  background-image: url(../images/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
 .navbar {
   display: flex;
   > .right {
