@@ -15,7 +15,7 @@ iframe {
 #banner_wrap {
   position: absolute;
   top: 0px;
-  right: 5px;
+  right: 0px;
   z-index: 10;
 }
 %banner {
@@ -42,11 +42,6 @@ iframe {
   background-image: url(../images/connpass.svg);
   background-color: #d11f00;
 }
-@media screen and (max-width: 420px) {
-  #header_wrap > .inner {
-    padding-top: 70px;
-  }
-}
 #toppage_link {
   display: block;
   &:hover,
@@ -58,5 +53,14 @@ iframe {
   display: flex;
   > .right {
     margin-left: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  #header_wrap > .inner {
+    padding-top: 70px;
+  }
+  %banner {
+    padding: 9px 38px 9px 6px;
+    background: no-repeat 96% 50% / auto 68%;
   }
 }
