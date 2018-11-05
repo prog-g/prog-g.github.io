@@ -12,8 +12,8 @@ body {
 iframe {
   max-width: 100%;
 }
-pre code {
-  overflow-x: scroll;
+code {
+  overflow: auto;
 }
 @media screen and (max-width: 480px) {
   #header_wrap > .inner {
