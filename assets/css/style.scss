@@ -12,6 +12,9 @@ body {
 iframe {
   max-width: 100%;
 }
+code {
+  overflow: auto;
+}
 @media screen and (max-width: 480px) {
   #header_wrap > .inner {
     padding-top: 70px;
