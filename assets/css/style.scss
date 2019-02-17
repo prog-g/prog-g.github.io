@@ -12,6 +12,9 @@ body {
 iframe {
   max-width: 100%;
 }
+code {
+  overflow: auto;
+}
 #header_wrap {
   background: -moz-linear-gradient(top, #212121, #484848, #212121);
   background: -webkit-linear-gradient(top, #212121, #484848, #212121);
@@ -19,10 +22,15 @@ iframe {
   background: -o-linear-gradient(top, #212121, #484848, #212121);
   background: linear-gradient(to top, #212121, #484848, #212121);
 }
+@media screen and (max-width: 480px) {
+  #header_wrap > .inner {
+    padding-top: 70px;
+  }
+}
 #banner_wrap {
   position: absolute;
   top: 0px;
-  right: 5px;
+  right: 0px;
   z-index: 10;
 }
 %banner {
@@ -33,6 +41,10 @@ iframe {
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 0 0 2px 2px;
+  @media screen and (max-width: 480px) {
+    padding: 9px 38px 9px 6px;
+    background: no-repeat 96% 50% / auto 68%;
+  }
 }
 #github_banner {
   @extend %banner;
@@ -48,11 +60,6 @@ iframe {
   @extend %banner;
   background-image: url(../images/connpass.svg);
   background-color: #d11f00;
-}
-@media screen and (max-width: 420px) {
-  #header_wrap > .inner {
-    padding-top: 70px;
-  }
 }
 #toppage_link {
   display: block;
