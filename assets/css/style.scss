@@ -58,10 +58,7 @@ iframe {
   font-size: 42px;
   line-height: 56px;
   padding-left: 64px;
-  background-image: url(../images/logo.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left;
+  background: no-repeat url(../images/logo.svg) left/contain;
 }
 .navbar {
   display: flex;
