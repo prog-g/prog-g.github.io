@@ -61,6 +61,12 @@ code {
     text-decoration: none;
   }
 }
+#toppage_link h1 {
+  font-size: 42px;
+  line-height: 56px;
+  padding-left: 64px;
+  background: no-repeat url(../images/logo.svg) left/contain;
+}
 .navbar {
   display: flex;
   > .right {
