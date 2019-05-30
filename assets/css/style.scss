@@ -80,7 +80,7 @@ code {
 .slide_wrapper:before {
     content:"";
     display: block;
-    padding-top: 56.25%; /* 高さと幅の比を16:9に固定。9/16*100=56.25 */
+    padding-top: 60.9375%; /* 高さと幅の比を16:9に固定。9/16*100=56.25 */
 }
 .slide {
     position: absolute;
