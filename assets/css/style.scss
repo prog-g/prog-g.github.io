@@ -73,16 +73,16 @@ code {
     margin-left: auto;
   }
 }
-.slide_wrap {
+.slide {
   position: relative;
   width: 100%;
 }
-.slide_wrap::before {
+.slide::before {
   content: "";
   display: block;
   padding-top: 60.75%;
 }
-.slide {
+.slide > iframe {
   position: absolute;
   top: 0;
   left: 0;
