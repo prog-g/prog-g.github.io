@@ -9,9 +9,6 @@ body {
   overflow-wrap: break-word;
   overflow-y: scroll;
 }
-iframe {
-  max-width: 100%;
-}
 code {
   overflow: auto;
 }
@@ -71,5 +68,20 @@ code {
   display: flex;
   > .right {
     margin-left: auto;
+  }
+}
+.slide {
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    padding-top: 61%; // (640/16*9+30)/640
+  }
+  > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
