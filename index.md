@@ -1,6 +1,6 @@
 ---
 layout: default
-title: prog-g
+title: 岐阜大学プログラミングサークル
 ---
 
 # このサークルについて
