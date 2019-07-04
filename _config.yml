@@ -9,7 +9,7 @@ exclude:
   - node_modules
 
 theme: jekyll-theme-slate
-title: prog-g
+title: Prog-G
 description: 岐阜大学プログラミングサークル
 lang: ja
 
