@@ -9,7 +9,7 @@ title: 岐阜大学プログラミングサークル
 Unity でゲームを作ったりが多めですが、 Android や Web アプリをやってる人もいます。
 初心者歓迎！
 
-[Slack の招待リンク](https://join.slack.com/t/prog-g/shared_invite/enQtNDE5NTAwNDAxNDI3LTE5NTBiOTRlNzVjYjZiMzhiNDUxNTY4OTRhZGZkNTdhNDY4MzljZWRiOWE2MDlkMzlhNWExMDQ1Y2IwMzI2NzA) を作りました。
+[Slack の招待リンク](https://join.slack.com/t/prog-g/signup) を作りました。
 登録できるメールアドレスを岐大生のものに限定していますが、学外の方も [Twitter](https://twitter.com/prog_g) などで声をかけてもらえれば参加可能です。
 
 ## 作ったもの
