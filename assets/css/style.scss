@@ -10,6 +10,7 @@ body {
   overflow-y: scroll;
 }
 code {
+  overflow-wrap: normal;
   overflow: auto;
 }
 @media screen and (max-width: 480px) {
