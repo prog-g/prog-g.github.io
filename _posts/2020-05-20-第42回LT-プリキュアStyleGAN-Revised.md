@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "第42回LT プリキュア StyleGAN Revised"
+title: "第42回LT プリキュアStyleGAN Revised"
 tag: [LT, 機械学習]
 ---
 
