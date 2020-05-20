@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第42回LT プリキュアStyleGAN Revised"
-tag: [LT, 機械学習]
+tag: [LT, 機械学習, 岐大祭2019]
 ---
 
 第 42 回 LT のスライドです。
