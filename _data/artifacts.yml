@@ -1,2 +1,6 @@
 - name: slack-choose-command
   repository: https://github.com/ahuglajbclajep/slack-choose-command
+- name: reversi-ai-dll
+  repository: https://github.com/curegit/reversi-ai-dll
+- name: precure-stylegan
+  repository: https://github.com/curegit/precure-stylegan
