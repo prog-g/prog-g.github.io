@@ -5,6 +5,7 @@ tag: [環境構築, Web]
 ---
 
 稀にしかやらず、すぐ忘れてしまうので書き残す。
+
 これからやる人の参考になれば幸い。
 
 | モデル                  | OS                                    |
@@ -25,7 +26,7 @@ sudo apt install apache2
 apachectl -v
 ```
 
-ここで、HTTP でホストに接続すると Apache 2 Debian Default Page が出力されるはずである。
+この段階で、HTTP でホストに接続すると Apache 2 Debian Default Page が出力されるはずである。
 
 ## ユーザごとの公開ディレクトリを有効にする
 
@@ -55,7 +56,9 @@ apt-cache search php7.4
 sudo apt install php7.3
 ```
 
-## ユーザごとの公開ディレクトリでも PHP を有効化
+この時点ですでに Apache の PHP 用 MOD が有効化されていると思われる。
+
+## ユーザディレクトリでも PHP を有効化
 
 デフォルトでは `~/public_html` 以下の PHP スクリプティングは無効になっている。
 `php7.3.conf` 内の無効化を行っている部分をコメントアウトする。
