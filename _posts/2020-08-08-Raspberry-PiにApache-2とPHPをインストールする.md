@@ -61,14 +61,15 @@ sudo apt install php7.3
 ## ユーザディレクトリでも PHP を有効化
 
 デフォルトでは `~/public_html` 以下の PHP スクリプティングは無効になっている。
-`php7.3.conf` 内の無効化を行っている部分をコメントアウトする。
+`phpX.Y.conf` 内の無効化を行っている部分をコメントアウトする。
 
 ```sh
+# 他エディタでも良い
 sudo vi /etc/apache2/mods-enabled/php7.3.conf
 ```
 
 最後に Apache を再起動して、ここまでの変更を反映する。
 
 ```sh
-systemctl restart apache2
+sudo systemctl restart apache2
 ```
