@@ -56,12 +56,12 @@ apt-cache search php7.4
 sudo apt install php7.3
 ```
 
-この時点ですでに Apache の PHP 用 MOD が有効化されていると思われる。
+この時点ですでに Apache の PHP スクリプティング MOD が有効化されていると思われる。
 
 ## ユーザディレクトリでも PHP を有効化
 
 デフォルトでは `~/public_html` 以下の PHP スクリプティングは無効になっている。
-`phpX.Y.conf` 内の無効化を行っている部分をコメントアウトする。
+`php?.?.conf` 内の無効化を行っている部分をコメントアウトする。
 
 ```sh
 # 他エディタでも良い
