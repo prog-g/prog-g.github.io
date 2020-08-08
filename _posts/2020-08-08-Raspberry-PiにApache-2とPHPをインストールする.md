@@ -17,6 +17,7 @@ tag: [環境構築, Web]
 `apt` コマンドのみで完結する。
 
 ```sh
+sudo apt update
 sudo apt install apache2
 ```
 
@@ -45,9 +46,9 @@ sudo a2enmod userdir
 
 ```sh
 # 検索の例
-apt-cache search php7.2
-apt-cache search php7.3
-apt-cache search php7.4
+apt search php7.2
+apt search php7.3
+apt search php7.4
 ```
 
 バージョンを決めたらインストールする。
@@ -56,7 +57,7 @@ apt-cache search php7.4
 sudo apt install php7.3
 ```
 
-この時点ですでに Apache の PHP スクリプティング MOD が有効化されていると思われる。
+インストールした時点ですでに Apache の PHP スクリプティング MOD が有効化されていると思われる。
 
 ## ユーザディレクトリでも PHP を有効化
 
