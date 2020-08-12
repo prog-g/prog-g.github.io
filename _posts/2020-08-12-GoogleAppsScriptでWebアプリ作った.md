@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GoogleAppsScriptでWebアプリ作った
-tag: [Web, LT]
+tag: [Web, LT, 岐大祭2020]
 ---
 
 第 45 回 LT のスライドです。
