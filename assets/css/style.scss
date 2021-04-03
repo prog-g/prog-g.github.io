@@ -13,6 +13,9 @@ code {
   overflow-wrap: normal;
   overflow: auto;
 }
+p img {
+  max-width: 100%;
+}
 @media screen and (max-width: 480px) {
   #header_wrap > .inner {
     padding-top: 70px;
