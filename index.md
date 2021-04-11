@@ -26,7 +26,7 @@ Slack でプログラミングについて語り合っています。
 ## 最近の活動
 
 <ul>
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts limit:10 %}
     <li>
       {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
