@@ -47,8 +47,8 @@ Slack ワークスペースはサークル所属の学生の交流の場とし�
   {% endfor %}
 </div>
 
-# お問い合わせ
+## お問い合わせ
 
-見学の希望やご質問等は[Twitter](https://twitter.com/prog_g)の DM または下記メールアドレスまでお願いします。
+見学の希望やご質問等は [Twitter](https://twitter.com/prog_g) の DM または下記メールアドレスまでお願いします。
 
 <img src="{{ '/assets/images/Email.svg' | relative_url }}" height="16px">
