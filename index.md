@@ -10,8 +10,11 @@ title: 岐阜大学プログラミングサークル
 初心者歓迎！
 
 Slack でプログラミングについて語り合っています。
-[Slack の招待リンク](https://join.slack.com/t/prog-g/signup) を作りました。
-登録できるメールアドレスを岐大生のものに限定していますが、学外の方も [Twitter](https://twitter.com/prog_g) などで声をかけてもらえれば参加可能です。
+サークルへ加入希望の方は[招待リンク](https://join.slack.com/t/prog-g/signup) から Slack ワークスペースへご参加ください。
+
+Slack ワークスペースはサークル所属の学生の交流の場としており、登録できるメールアドレスは岐大の学生のものに限定しております。
+加入希望の方以外の参加はご遠慮ください。
+加入前のご質問等は[お問い合わせ](#お問い合わせ)からお願いします。
 
 ## 作ったもの
 
@@ -43,3 +46,9 @@ Slack でプログラミングについて語り合っています。
     {% endif %}
   {% endfor %}
 </div>
+
+## お問い合わせ
+
+見学の希望やご質問等は [Twitter](https://twitter.com/prog_g) の DM または下記メールアドレスまでお願いします。
+
+<img src="{{ '/assets/images/Email.svg' | relative_url }}" height="16px">
